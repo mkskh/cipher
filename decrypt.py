@@ -1,7 +1,8 @@
-text = input('Enter a text that you want to encrypt: ')
-key = int(input('Enter a key for encrypt: '))
+text = input('Enter a text that you want to decrypt: ')
+key = int(input('Enter the decryption key: '))
 
 result = ''
+
 
 for letter in text:
     if letter == ' ':
